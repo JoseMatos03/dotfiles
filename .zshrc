@@ -112,3 +112,11 @@ source $ZSH/oh-my-zsh.sh
 
 alias ls='colorls'
 alias config='/usr/bin/git --git-dir=/Users/josematos/.cfg/ --work-tree=/Users/josematos'
+alias cat="bat"
+alias find="fd"
+alias grep="rg"
+alias ps="procs"
+alias clock="tty-clock"
+alias matrix="unimatrix"
+alias pipes="pipes.sh"
+alias vim="nvim"
