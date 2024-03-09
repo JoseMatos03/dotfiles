@@ -110,6 +110,12 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# PYENV SETUP
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+fi
+
 alias ls='colorls'
 alias config='/usr/bin/git --git-dir=/Users/josematos/.cfg/ --work-tree=/Users/josematos'
 alias cat="bat"
@@ -120,3 +126,4 @@ alias clock="tty-clock"
 alias matrix="unimatrix"
 alias pipes="pipes.sh"
 alias vim="nvim"
+alias brew='env PATH="${PATH//$(pyenv root)/shims:/}" brew'
