@@ -89,8 +89,8 @@ alias config='/usr/bin/git --git-dir=/Users/josematos/.cfg/ --work-tree=/Users/j
 alias ls='colorls'
 alias cat="bat"
 alias find="fd"
-alias grep="rg"
 alias ps="procs"
+alias grep="ggrep"
 alias clock="tty-clock"
 alias matrix="unimatrix"
 alias pipes="pipes.sh"
