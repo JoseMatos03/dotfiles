@@ -9,7 +9,7 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="shades-of-purple"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
